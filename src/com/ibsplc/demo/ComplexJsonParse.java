@@ -11,6 +11,8 @@ public class ComplexJsonParse {
 		js.getInt("courses.size()");
 		int count=js.getInt("courses.size()");
 		System.out.println(count);
+		System.out.println(count);
+		System.out.println(count);
 		System.out.println(js.getInt("dashboard.purchaseAmount"));
 		System.out.println(js.getString("courses[0].title"));
 		for (int i=0;i<count;i++) {
